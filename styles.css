@@ -1,0 +1,23 @@
+body {
+    background-color: #DFF3E3;
+    font-family: 'Signika', sans-serif;
+    color: #475B63;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    color: black;
+    background-color: #CE7DA5;
+    margin: 0;
+    padding: 7px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}
