@@ -1,0 +1,24 @@
+/*education section*/
+.education_div {
+    display: flex;
+    align-items: center;
+}
+
+.education_logo {
+    width: auto;
+    height: auto;
+    /* max-width: 200px; */
+    max-height: 100px;
+}
+
+.education-title-block-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    /* align-self: center; */
+}
+
+.education_name {
+    font-weight: 650;
+    /* font-size: 1.3rem; */
+}

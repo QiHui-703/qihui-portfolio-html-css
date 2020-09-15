@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Ng Qi Hui</title>
+
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="about-styles.css" />
+    <link rel="stylesheet" href="topHeader-styles.css" />
+    <link rel="stylesheet" href="tag-styles.css" />
+    <link rel="stylesheet" href="workExp-styles.css" />
+    <link rel="stylesheet" href="education-styles.css" />
+    <link rel="stylesheet" href="project-styles.css" />
 
     <!-- font family packages -->
     <link
@@ -21,26 +28,27 @@
     />
   </head>
   <body>
-    <nav>
-      <div class="topheader_qihui">
-        <h1>ng qi hui</h1>
-      </div>
+    <div class="topheader_qihui">
+      <h1>ng qi hui</h1>
+    </div>
+    <nav class="navigation_bar_nav">
       <ul class="navigation_bar">
-        <li>About</li>
-        <li>Working Experience</li>
+        <!-- link to tag -->
+        <a href="#about-tag"><li>About</li></a>
+        <a href="#workExperience-tag"><li>Working Experience</li></a>
         <a href="#education-tag"><li>Education</li></a>
-        <li>Project</li>
+        <a href="#project-tag"><li>Project</li></a>
       </ul>
     </nav>
 
     <div class="about">
       <div class="tag_div">
-        <h2 class="tag">About</h2>
+        <h2 class="tag" id="about-tag">About</h2>
       </div>
 
       <div class="about-top-section">
         <img
-          class="picture profile_picture"
+          class="profile_picture"
           src="./images/qihui.jpg"
           alt="Portfolio photo"
         />
@@ -66,18 +74,20 @@
 
     <div class="work_exp">
       <div class="tag_div">
-        <h2 class="tag">Working Experience</h2>
+        <h2 class="tag" id="workExperience-tag">Working Experience</h2>
       </div>
       <article>
         <div class="info_company">
-          <p class="bold_title">Keysight Technologies</p>
-          <p>Process & Equipment Engineer</p>
-          <p>April 2018 - April 2020</p>
           <img
-            class="picture picture_company"
+            class="picture_company"
             src="./images/keysight.png"
             alt="Keysight company logo"
           />
+          <div class="work-title-block-right">
+            <p class="company_name">Keysight Technologies</p>
+            <p>Process & Equipment Engineer</p>
+            <p>April 2018 - April 2020</p>
+          </div>
         </div>
 
         <div class="technical_skills">
@@ -184,14 +194,16 @@
 
       <article>
         <div class="info_company">
-          <p class="bold_title">Plexus Manufacturing Sdn Bhd (Riverside)</p>
-          <p>Quality Assurance Trainee</p>
-          <p>November 2016 - February 2017</p>
           <img
-            class="picture picture_company"
+            class="picture_company"
             src="./images/plexus.png"
             alt="Plexus company logo"
           />
+          <div class="work-title-block-right">
+            <p class="company_name">Plexus Manufacturing Sdn Bhd (Riverside)</p>
+            <p>Quality Assurance Trainee</p>
+            <p>November 2016 - February 2017</p>
+          </div>
         </div>
 
         <div class="technical_skills">
@@ -226,42 +238,64 @@
       <div class="tag_div">
         <h2 class="tag" id="education-tag">Education</h2>
       </div>
+
       <article>
-        <img src="./images/curtin.png" alt="Curtin University logo" />
-        <p>Curtin University Malaysia</p>
-        <p>Bachelor's Degree in Chemical Engineering (Honours)</p>
-        <p>March 2014 - December 2017</p>
-        <p>CGPA: 3.74 (Upper Second Class Honours)</p>
+        <div class="education_div">
+          <img
+            class="education_logo"
+            src="./images/curtin.png"
+            alt="Curtin University logo"
+          />
+          <div class="education-title-block-right">
+            <p class="education_name">Curtin University Malaysia</p>
+            <p class="education_name">Bachelor's Degree in Chemical Engineering (Honours)</p>
+            <p>March 2014 - December 2017</p>
+            <p>CGPA: 3.74 (Upper Second Class Honours)</p>
+          </div>
+        </div>
         <p class="bold_title">Academic Awards</p>
         <ul>
           <li>Dean's List in Process Synthesis and Design, 2017</li>
           <li>Letter of Commendation (2013 - 2017)</li>
         </ul>
         <p class="bold_title">Publication</p>
-        <div>
+        <div class="education_div">
           <img
-            class="picture"
+            class="education_logo"
             src="./images/elsevier.png"
             alt="Elsevier logo"
           />
-          <p>
-            Modelling of the co-pyrolysis of rubber residual and HDPE waste
-            using the distributed activation energy model (DAEM)
-          </p>
-          <p>Published by Science Direct</p>
-          <p>Published on 25 June 2018</p>
-          <a href="https://doi.org/10.1016/j.applthermaleng.2018.04.069"
-            >Full article</a
-          >
+
+          <div class="education-title-block-right">
+            <p class="education_name">Published by Science Direct</p>
+            <p class="education_name">Published on 25 June 2018</p>
+          </div>
         </div>
+        <p>
+          Modelling of the co-pyrolysis of rubber residual and HDPE waste using
+          the distributed activation energy model (DAEM)
+        </p>
+
+        <a href="https://doi.org/10.1016/j.applthermaleng.2018.04.069"
+          >Full article</a
+        >
       </article>
 
       <article>
-        <img src="./images/curtin.png" alt="Curtin University logo" />
-        <p>Curtin University Malaysia</p>
-        <p>Foundation in Science and Engineering</p>
-        <p>March 2013 - December 2013</p>
-        <p>Course Weightage Average: 84.13</p>
+        <div class="education_div">
+          <img
+            class="education_logo"
+            src="./images/curtin.png"
+            alt="Curtin University logo"
+          />
+          <div class="education-title-block-right">
+            <p class="education_name">Curtin University Malaysia</p>
+            <p class="education_name">Foundation in Science and Engineering</p>
+            <p>March 2013 - December 2013</p>
+            <p>Course Weightage Average: 84.13</p>
+          </div>
+        </div>
+
         <p class="bold_title">Academic Awards</p>
         <ul>
           <li>Letter of Commendation (2 semesters)</li>
@@ -271,7 +305,7 @@
 
     <div class="project">
       <div class="tag_div">
-        <h2 class="tag">Project</h2>
+        <h2 class="tag" id="project-tag">Project</h2>
       </div>
     </div>
   </body>

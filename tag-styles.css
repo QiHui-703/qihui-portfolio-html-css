@@ -1,0 +1,17 @@
+/* sticky title tag */
+.tag_div {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px auto;
+  
+}
+
+.tag {
+  background-color: #5c4435;
+  color: #d5cdc3;
+  padding: 15px 45px 15px 10px;
+  width: fit-content;
+  border-radius: 0px 35px 35px 0px;
+  text-align: left;
+  scroll-margin-top: 3em;
+}

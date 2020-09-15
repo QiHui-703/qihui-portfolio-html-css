@@ -1,0 +1,36 @@
+/*about section*/
+.about-top-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.profile_picture {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 25px;
+  /* box-shadow: 7px 7px 10px rgb(136, 136, 136); */
+  transition: 0.2s;
+  position: relative;
+}
+
+.profile_picture:hover {
+  box-shadow: 7px 7px 10px rgb(136, 136, 136);
+  left: -2px;
+  top: -2px;
+}
+
+.info {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.info li {
+  margin-bottom: 20px;
+}
+
+.brief_desc {
+  margin: 0px 40px 20px 40px;
+}

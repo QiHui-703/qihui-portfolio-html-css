@@ -1,0 +1,51 @@
+/*top header section*/
+.topheader_qihui {
+  font-family: "Sacramento", cursive;
+  font-size: 3rem;
+  color: black;
+  background-color: #ce7da5;
+  margin: 0px;
+  padding: 20px 0px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.navigation_bar {
+  padding: 5px 0;
+  margin: 0%;
+  background-color: #bcb8b1;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.navigation_bar_nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navigation_bar li {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: underline;
+  background-color: #bcb8b1;
+  padding: 1em;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.navigation_bar li:hover {
+  background-color: #837f79;
+  text-decoration: none;
+  color: azure;
+}
+
+.navigation_bar li:active {
+  background-color: #bcb8b1;
+}
+
+.navigation_bar a, .navigation_bar a:visited{
+  text-decoration: none;
+  color: #475b63;
+}
