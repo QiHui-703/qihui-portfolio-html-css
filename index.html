@@ -1,170 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Ng Qi Hui</title>
-    <link rel="stylesheet" href="styles.css">
-    
-    <!-- font family packages -->
-    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="styles.css" />
 
-</head>
-<body>
-    <h1 class="header_name">ng qi hui</h1>
-    <nav class="navigation_bar">
-        <ul>
-            <li>About</li>
-            <li>Working Experience</li>
-            <li>Education</li>
-            <li>Project</li>
-        </ul>
-    </nav> 
+    <!-- font family packages -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="topheader_qihui">
+        <h1>ng qi hui</h1>
+      </div>
+      <ul class="navigation_bar">
+        <li>About</li>
+        <li>Working Experience</li>
+        <a href="#education-tag"><li>Education</li></a>
+        <li>Project</li>
+      </ul>
+    </nav>
 
     <div class="about">
+      <div class="tag_div">
         <h2 class="tag">About</h2>
-        <img src="./images/qihui.jpg" alt="Portfolio photo">
+      </div>
+
+      <div class="about-top-section">
+        <img
+          class="picture profile_picture"
+          src="./images/qihui.jpg"
+          alt="Portfolio photo"
+        />
         <ul class="info">
-            <li>3 Jul 1995</li>
-            <li>+60124363197</li>
-            <li>qihui1995@gmail.com</li>
-            <li><a href="https://www.linkedin.com/in/qihuing/">linkedin.com/in/qihuing</a></li>
+          <li>3 Jul 1995</li>
+          <li>+60124363197</li>
+          <li>qihui1995@gmail.com</li>
+          <li>
+            <a href="https://www.linkedin.com/in/qihuing/"
+              >linkedin.com/in/qihuing</a
+            >
+          </li>
         </ul>
-        <p class="brief_desc">2 years of experience in microcircuit manufacturing, focused on automated epoxy dispensing process. A motivated junior executive with an enthusiastic personality towards my work and life. Always seeking opportunities to enhance my career and development. Eager to learn and apply myself to the daily challenges.</p>
+      </div>
+      <p class="brief_desc">
+        2 years of experience in microcircuit manufacturing, focused on
+        automated epoxy dispensing process. A motivated junior executive with an
+        enthusiastic personality towards my work and life. Always seeking
+        opportunities to enhance my career and development. Eager to learn and
+        apply myself to the daily challenges.
+      </p>
     </div>
 
     <div class="work_exp">
+      <div class="tag_div">
         <h2 class="tag">Working Experience</h2>
-        <article>
-            <div class="info_company">
-                <p class="bold_title">Keysight Technologies</p>
-                <p>Process & Equipment Engineer</p>
-                <p>April 2018 - April 2020</p>
-                <img src="./images/keysight.png" alt="Keysight company logo">
-            </div>
+      </div>
+      <article>
+        <div class="info_company">
+          <p class="bold_title">Keysight Technologies</p>
+          <p>Process & Equipment Engineer</p>
+          <p>April 2018 - April 2020</p>
+          <img
+            class="picture picture_company"
+            src="./images/keysight.png"
+            alt="Keysight company logo"
+          />
+        </div>
 
-            <div class="technical_skills">
-                <p class="bold_title">Technical Skills</p>
-                <ul>
-                    <li>Six Sigma</li>
-                    <li>Lean Manufacturing</li>
-                    <li>Drafting Software: Creo Elements</li>
-                    <li>Environmental, Health and Safety (EHS)</li>
-                    <li>Restricion of Hazardous Substances (RoHS)</li>
-                    <li>Microsoft Office: Powerpoint, Excel, Word</li>
-                    <li>Project Management</li>
-                </ul>
-            </div>
+        <div class="technical_skills">
+          <p class="bold_title">Technical Skills</p>
+          <ul>
+            <li>Six Sigma</li>
+            <li>Lean Manufacturing</li>
+            <li>Drafting Software: Creo Elements</li>
+            <li>Environmental, Health and Safety (EHS)</li>
+            <li>Restricion of Hazardous Substances (RoHS)</li>
+            <li>Microsoft Office: Powerpoint, Excel, Word</li>
+            <li>Project Management</li>
+          </ul>
+        </div>
 
-            <div class="job_responsibilities">
-                <p class="bold_title">Job Responsibility</p>
-                <ul>
-                    <li>Owner of automated epoxy dispensing process on microcircuit and gold packages using microdot auger, LX auger and precision auger.</li>  
-                    <li>Travelled to Chiang Mai, Thailand for process audits and products outsourcing.</li>
-                    <li>Troubleshoot and resolve on process related production issues using root cause analysis (RCA) approaches, such as fish-bone (cause and effect) diagram and 5 Why analysis.</li>
-                    <li>Ensure process is under control, yield achieves higher than 99%.</li>
-                    <li>Responsible for document changes related to process such as process document, equipment maintenance and quality control plan.</li>
-                    <li>Raise Engineering Change Order (ECO) for document changes through Enovia to comply with ISO 9001.</li>
-                    <li>Conduct engineering evaluation/studies to understand process capability and quality. Raise Manufacturing Special Treatment (MST) to capture evaluation outcomes.</li>
-                    <li>As a local support for new product introduction (NPI). Setting up epoxy dispensing program in machine, establish special epoxy touch up guidelines for operators and ensuring yield achieves 99% before releasing for production mass run.</li>
-                    <li>Initiate improvement projects, lean projects, which aims for better process yield, cost saving and/or cost avoidance.</li>
-                    <li>Committee of Department Environmental, Health and Safety (EHS) organization. Ensure all chemicals in production floor comply to CLASS Regulations and being used and handled properly according to ISO 14k.</li>
-                </ul>
-            </div>
+        <div class="job_responsibilities">
+          <p class="bold_title">Job Responsibility</p>
+          <ul>
+            <li>
+              Owner of automated epoxy dispensing process on microcircuit and
+              gold packages using microdot auger, LX auger and precision auger.
+            </li>
+            <li>
+              Travelled to Chiang Mai, Thailand for process audits and products
+              outsourcing.
+            </li>
+            <li>
+              Troubleshoot and resolve on process related production issues
+              using root cause analysis (RCA) approaches, such as fish-bone
+              (cause and effect) diagram and 5 Why analysis.
+            </li>
+            <li>
+              Ensure process is under control, yield achieves higher than 99%.
+            </li>
+            <li>
+              Responsible for document changes related to process such as
+              process document, equipment maintenance and quality control plan.
+            </li>
+            <li>
+              Raise Engineering Change Order (ECO) for document changes through
+              Enovia to comply with ISO 9001.
+            </li>
+            <li>
+              Conduct engineering evaluation/studies to understand process
+              capability and quality. Raise Manufacturing Special Treatment
+              (MST) to capture evaluation outcomes.
+            </li>
+            <li>
+              As a local support for new product introduction (NPI). Setting up
+              epoxy dispensing program in machine, establish special epoxy touch
+              up guidelines for operators and ensuring yield achieves 99% before
+              releasing for production mass run.
+            </li>
+            <li>
+              Initiate improvement projects, lean projects, which aims for
+              better process yield, cost saving and/or cost avoidance.
+            </li>
+            <li>
+              Committee of Department Environmental, Health and Safety (EHS)
+              organization. Ensure all chemicals in production floor comply to
+              CLASS Regulations and being used and handled properly according to
+              ISO 14k.
+            </li>
+          </ul>
+        </div>
 
-            <div class="achievement">
-                <p class="bold_title">Achievement</p>
-                <ul>
-                    <li>Successfully set up new epoxy dispenser in production, conducted process buy-off and EHS buy-off before releasing machine for production use.</li>
-                    <li>Take lead on an outsourcing project to Contract Manufacturer (CM) in Thailand. Project completed with a cost saving at USD 64k/annum</li>
-                    <li>Take lead to support on NPI with cost saving at USD1.5mil/annum</li>
-                    <li>Participated in audits related to ISO 14000 and ISO 9001.</li>
-                    <li>Participated in EHS related assessment: Chemical Hazards and Risk Assessment</li>
-                    <li>Conducted an improvement project by reducing cycle time of lid sealing with cost avoidance at USD 1k.</li>
-                </ul>
-            </div>
+        <div class="achievement">
+          <p class="bold_title">Achievement</p>
+          <ul>
+            <li>
+              Successfully set up new epoxy dispenser in production, conducted
+              process buy-off and EHS buy-off before releasing machine for
+              production use.
+            </li>
+            <li>
+              Take lead on an outsourcing project to Contract Manufacturer (CM)
+              in Thailand. Project completed with a cost saving at USD 64k/annum
+            </li>
+            <li>
+              Take lead to support on NPI with cost saving at USD1.5mil/annum
+            </li>
+            <li>Participated in audits related to ISO 14000 and ISO 9001.</li>
+            <li>
+              Participated in EHS related assessment: Chemical Hazards and Risk
+              Assessment
+            </li>
+            <li>
+              Conducted an improvement project by reducing cycle time of lid
+              sealing with cost avoidance at USD 1k.
+            </li>
+          </ul>
+        </div>
 
-            <div class="leadership">
-                <p class="bold_title">Leadership/Volunteering</p>
-                <ul>
-                    <li>Volunteer for Keysight After School Program 2018, 2019</li>
-                    <li>Core committee for Penang International Science Fair 2018, 2019</li>
-                </ul>
-            </div>
-           
-        </article>
+        <div class="leadership">
+          <p class="bold_title">Leadership/Volunteering</p>
+          <ul>
+            <li>Volunteer for Keysight After School Program 2018, 2019</li>
+            <li>
+              Core committee for Penang International Science Fair 2018, 2019
+            </li>
+          </ul>
+        </div>
+      </article>
 
-        <article>
-            <div class="info_company">
-                <p class="bold_title">Plexus Manufacturing Sdn Bhd (Riverside)</p>
-                <p>Quality Assurance Trainee</p>
-                <p>November 2016 - February 2017</p>
-                <img src="./images/plexus.png" alt="Plexus company logo">
-            </div>
+      <article>
+        <div class="info_company">
+          <p class="bold_title">Plexus Manufacturing Sdn Bhd (Riverside)</p>
+          <p>Quality Assurance Trainee</p>
+          <p>November 2016 - February 2017</p>
+          <img
+            class="picture picture_company"
+            src="./images/plexus.png"
+            alt="Plexus company logo"
+          />
+        </div>
 
-            <div class="technical_skills">
-                <p class="bold_title">Technical Skills</p>
-                <ul>
-                    <li>Microsoft Office: Powerpoint, Excel, Word</li>
-                    <li>Quality Tools: Histogram, Pareto chart</li>
-                </ul>
-            </div>
+        <div class="technical_skills">
+          <p class="bold_title">Technical Skills</p>
+          <ul>
+            <li>Microsoft Office: Powerpoint, Excel, Word</li>
+            <li>Quality Tools: Histogram, Pareto chart</li>
+          </ul>
+        </div>
 
-            <div class="job_responsibilities">
-                <p class="bold_title">Job Responsibility</p>
-                <ul>
-                    <li>Identify cosmetic defects (dents, pits, or scratches) on hardware part using specific defect measurement tool.</li>
-                    <li>Draft Standard Operating Procedures in English and Malay for new products transferred.</li>
-                    <li>Establish better data filtering and analysis approach using VBA in Microsoft Excel</li>
-                </ul>
-
-            </div>
-
-        </article>
+        <div class="job_responsibilities">
+          <p class="bold_title">Job Responsibility</p>
+          <ul>
+            <li>
+              Identify cosmetic defects (dents, pits, or scratches) on hardware
+              part using specific defect measurement tool.
+            </li>
+            <li>
+              Draft Standard Operating Procedures in English and Malay for new
+              products transferred.
+            </li>
+            <li>
+              Establish better data filtering and analysis approach using VBA in
+              Microsoft Excel
+            </li>
+          </ul>
+        </div>
+      </article>
     </div>
 
     <div class="education">
-        <h2 class="tag">Education</h2>
-        <article>
-            <img src="./images/curtin.png" alt="Curtin University logo">
-            <p>Curtin University Malaysia</p>
-            <p>Bachelor's Degree in Chemical Engineering (Honours)</p>
-            <p>March 2014 - December 2017</p>
-            <p>CGPA: 3.74 (Upper Second Class Honours)</p>
-            <p class="bold_title">Academic Awards</p>
-            <ul>
-                <li>Dean's List in Process Synthesis and Design, 2017</li>
-                <li>Letter of Commendation (2013 - 2017)</li>
-            </ul>
-            <p class="bold_title">Publication</p>
-            <div>
-                <img src="./images/elsevier.png" alt="Elsevier logo">
-                <p>Modelling of the co-pyrolysis of rubber residual and HDPE waste using the distributed activation energy model (DAEM)</p>
-                <p>Published by Science Direct</p>
-                <p>Published on 25 June 2018</p>
-                <a href="https://doi.org/10.1016/j.applthermaleng.2018.04.069">Full article</a>
-            </div>
-        </article>
+      <div class="tag_div">
+        <h2 class="tag" id="education-tag">Education</h2>
+      </div>
+      <article>
+        <img src="./images/curtin.png" alt="Curtin University logo" />
+        <p>Curtin University Malaysia</p>
+        <p>Bachelor's Degree in Chemical Engineering (Honours)</p>
+        <p>March 2014 - December 2017</p>
+        <p>CGPA: 3.74 (Upper Second Class Honours)</p>
+        <p class="bold_title">Academic Awards</p>
+        <ul>
+          <li>Dean's List in Process Synthesis and Design, 2017</li>
+          <li>Letter of Commendation (2013 - 2017)</li>
+        </ul>
+        <p class="bold_title">Publication</p>
+        <div>
+          <img
+            class="picture"
+            src="./images/elsevier.png"
+            alt="Elsevier logo"
+          />
+          <p>
+            Modelling of the co-pyrolysis of rubber residual and HDPE waste
+            using the distributed activation energy model (DAEM)
+          </p>
+          <p>Published by Science Direct</p>
+          <p>Published on 25 June 2018</p>
+          <a href="https://doi.org/10.1016/j.applthermaleng.2018.04.069"
+            >Full article</a
+          >
+        </div>
+      </article>
 
-        <article>
-            <img src="./images/curtin.png" alt="Curtin University logo">
-            <p>Curtin University Malaysia</p>
-            <p>Foundation in Science and Engineering</p>
-            <p>March 2013 - December 2013</p>
-            <p>Course Weightage Average: 84.13</p>
-            <p class="bold_title">Academic Awards</p>
-            <ul>
-                <li>Letter of Commendation (2 semesters)</li>
-            </ul>
-        </article>
-
+      <article>
+        <img src="./images/curtin.png" alt="Curtin University logo" />
+        <p>Curtin University Malaysia</p>
+        <p>Foundation in Science and Engineering</p>
+        <p>March 2013 - December 2013</p>
+        <p>Course Weightage Average: 84.13</p>
+        <p class="bold_title">Academic Awards</p>
+        <ul>
+          <li>Letter of Commendation (2 semesters)</li>
+        </ul>
+      </article>
     </div>
 
     <div class="project">
+      <div class="tag_div">
         <h2 class="tag">Project</h2>
+      </div>
     </div>
-</body>
+  </body>
 </html>
