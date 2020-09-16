@@ -125,9 +125,9 @@ table {
 }
 
 /*delete later*/
-.picture {
+/* .picture {
   width: 100%;
-}
+} */
 
 /* decoration formatting for entire webpage */
 body {
@@ -135,7 +135,7 @@ body {
   font-family: "Signika", sans-serif;
   color: #475b63;
   /* font-size: 1.3rem; */
-  line-height: 2rem;
+  line-height: 1.3rem;
 }
 
 h2 {
@@ -143,6 +143,23 @@ h2 {
   font-size: 2rem;
 }
 
+.button-div {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
 
+.back-to-top-button {
+  display: flex;
+  background-color: #BA8CAD;
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+}
 
-
+.button-img {
+  width: 30px;
+  height: 30px;
+}

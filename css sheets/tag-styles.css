@@ -2,16 +2,25 @@
 .tag_div {
   width: 100%;
   box-sizing: border-box;
-  margin: 20px auto;
-  
+  margin: 24px auto;
+  position: sticky;
+  top: 60px;
+  z-index: 1;
 }
 
 .tag {
   background-color: #5c4435;
   color: #d5cdc3;
-  padding: 15px 45px 15px 10px;
+  padding: 10px 45px 10px 10px;
   width: fit-content;
   border-radius: 0px 35px 35px 0px;
   text-align: left;
   scroll-margin-top: 3em;
+}
+
+/*tag font size*/
+.tag {
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  
 }

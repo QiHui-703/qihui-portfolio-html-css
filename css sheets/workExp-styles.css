@@ -1,42 +1,48 @@
 /* work experience section */
+.work_exp {
+  margin-bottom: 50px;
+}
+
 article {
-    margin-left: 40px;
-    margin-bottom: 50px;
-    margin-right: 40px;
+  background-color: #c4bcb2;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px;
 }
 
 .picture_company {
-    width: auto;
-    height: auto;
-    max-width: 200px;
-    max-height: 100px;
+  width: auto;
+  height: auto;
+  max-width: 100px;
 }
 
 .info_company {
-    /* display: flex; */
-    /* margin-left: 40px; */
-    /* align-items: center; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .work-title-block-right {
-    /* display: inline-block; */
-    margin-left: 15px;
-    
+  /* display: inline-block; */
+  margin-left: 15px;
 }
 
-.company_name{
-    font-weight: 700;
-    /* font-size: 1.5rem; */
-    /* padding: 20px 0px 5px; */
+.company_name {
+  font-weight: 700;
+  /* font-size: 1.5rem; */
+  /* padding: 20px 0px 5px; */
 }
 
 .bold_title {
-    font-weight: 650;
-    padding: 17px 0px 3px;
+  font-weight: 650;
+  padding: 17px 0px 3px;
 }
 
 article li {
-    list-style: square;
-    margin-left: 30px;
-    text-align: justify;
+  list-style: square;
+  margin-left: 30px;
+  text-align: justify;
 }

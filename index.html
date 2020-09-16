@@ -28,9 +28,10 @@
     />
   </head>
   <body>
-    <div class="topheader_qihui">
+    <div class="topheader_qihui" id="top-body">
       <h1>ng qi hui</h1>
     </div>
+
     <nav class="navigation_bar_nav">
       <ul class="navigation_bar">
         <!-- link to tag -->
@@ -47,22 +48,30 @@
       </div>
 
       <div class="about-top-section">
-        <img
-          class="profile_picture"
-          src="./images/qihui.jpg"
-          alt="Portfolio photo"
-        />
-        <ul class="info">
-          <li>3 Jul 1995</li>
-          <li>+60124363197</li>
-          <li>qihui1995@gmail.com</li>
-          <li>
-            <a href="https://www.linkedin.com/in/qihuing/"
-              >linkedin.com/in/qihuing</a
-            >
-          </li>
-        </ul>
+        <div class="profile-picture-div">
+          <img
+            class="profile_picture"
+            src="./images/qihui.jpg"
+            alt="Portfolio photo"
+          />
+        </div>
+        <div class="info-div">
+          <ul class="info">
+            <li>3 Jul 1995</li>
+            <li>+60124363197</li>
+            <li>qihui1995@gmail.com</li>
+            <li>
+              <a
+                class="link-linkedin"
+                target="_blank"
+                href="https://www.linkedin.com/in/qihuing/"
+                >linkedin.com/in/qihuing</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
+
       <p class="brief_desc">
         2 years of experience in microcircuit manufacturing, focused on
         automated epoxy dispensing process. A motivated junior executive with an
@@ -248,7 +257,9 @@
           />
           <div class="education-title-block-right">
             <p class="education_name">Curtin University Malaysia</p>
-            <p class="education_name">Bachelor's Degree in Chemical Engineering (Honours)</p>
+            <p class="education_name">
+              Bachelor's Degree in Chemical Engineering (Honours)
+            </p>
             <p>March 2014 - December 2017</p>
             <p>CGPA: 3.74 (Upper Second Class Honours)</p>
           </div>
@@ -275,10 +286,20 @@
           Modelling of the co-pyrolysis of rubber residual and HDPE waste using
           the distributed activation energy model (DAEM)
         </p>
-
-        <a href="https://doi.org/10.1016/j.applthermaleng.2018.04.069"
-          >Full article</a
-        >
+        <div class="publication-div">
+          <a
+            class="publication"
+            target="_blank"
+            href="https://doi.org/10.1016/j.applthermaleng.2018.04.069"
+          >
+            <img
+              src="./images/article.png"
+              alt="article-icon"
+              style="width: 30px"
+            />
+            Full article
+          </a>
+        </div>
       </article>
 
       <article>
@@ -307,6 +328,16 @@
       <div class="tag_div">
         <h2 class="tag" id="project-tag">Project</h2>
       </div>
+    </div>
+    <div class="button-div">
+      <div class="back-to-top-button">
+        <a href="#top-body"
+          ><img
+            class="button-img"
+            src="./images/arrow.png"
+            alt="back-to-top-button"
+        /></a>
+    </div>
     </div>
   </body>
 </html>

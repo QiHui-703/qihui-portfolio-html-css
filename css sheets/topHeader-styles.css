@@ -1,11 +1,11 @@
 /*top header section*/
 .topheader_qihui {
   font-family: "Sacramento", cursive;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: black;
   background-color: #ce7da5;
   margin: 0px;
-  padding: 20px 0px;
+  padding: 30px 0px 30px;
   text-align: center;
   font-weight: 700;
 }
@@ -15,14 +15,59 @@
   margin: 0%;
   background-color: #bcb8b1;
   display: flex;
-  justify-content: safe;
+  /* justify-content: safe; */
   margin-bottom: 20px;
+}
+
+/* scrollable top navigation bar*/
+.navigation_bar {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* appearance of scrollable track */
+.navigation_bar::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+.navigation_bar::-webkit-scrollbar-track {
+  margin: auto 5px auto;
+}
+.navigation_bar::-webkit-scrollbar-thumb {
+  background: rgb(165, 153, 153);
+  border-radius: 50px;
+  /* box-shadow: rgba(255,255,255,0.3) 0 0 0 1px; */
+}
+.navigation_bar:hover::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.45);
+}
+.navigation_bar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 3px;
+}
+body::-webkit-scrollbar-track {
+  margin: 5px 0 5px;
+}
+body::-webkit-scrollbar-thumb {
+  background: rgb(165, 153, 153);
+  border-radius: 50px;
+  /* box-shadow: rgba(255,255,255,0.3) 0 0 0 1px; */
+}
+body:hover::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.45);
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.55);
 }
 
 .navigation_bar_nav {
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .navigation_bar li {
@@ -47,13 +92,8 @@
   background-color: #bcb8b1;
 }
 
-.navigation_bar a, .navigation_bar a:visited{
+.navigation_bar a,
+.navigation_bar a:visited {
   text-decoration: none;
   color: #475b63;
-}
-
-/* scrollable top navigation bar*/
-.navigation_bar {
-  overflow-x: scroll;
-  white-space: nowrap;
 }

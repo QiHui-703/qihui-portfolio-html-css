@@ -1,31 +1,46 @@
 /*about section*/
+
+.about {
+  margin-bottom: 50px;
+}
+
 .about-top-section {
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: center; */
-  margin-bottom: 30px;
-  margin-left: 40px;
+  /* background-color: violet; */
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: 35% 65%;
+  /* grid-template-rows: auto; */
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.profile-picture-div {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .profile_picture {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
+  width: 90%;
+  height: auto;
+  /* object-fit: cover; */
   border-radius: 25px;
   /* box-shadow: 7px 7px 10px rgb(136, 136, 136); */
-  transition: 0.2s;
-  /* position: relative; */
+  transition: 0.3s;
+  position: relative;
 }
 
 .profile_picture:hover {
-  box-shadow: 7px 7px 10px rgb(136, 136, 136);
+  box-shadow: 4px 4px 10px rgb(136, 136, 136);
   left: -2px;
   top: -2px;
 }
 
 .info {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   margin-left: 15px;
   font-size: 1rem;
 }
@@ -34,6 +49,18 @@
   margin-bottom: 1px;
 }
 
+.link-linkedin, .link-linkedin:visited {
+  color: #475b63;
+}
+
+.link-linkedin:hover {
+  color: #475b63;
+  text-decoration: none;
+  background-color: #719890;
+  color: #d5cdc3;
+}
+
 .brief_desc {
-  margin: 0px 40px 20px 40px;
+  margin: 0px 20px 0px 20px;
+  text-align: justify;
 }
