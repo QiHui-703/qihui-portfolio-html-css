@@ -15,7 +15,7 @@
   margin: 0%;
   background-color: #bcb8b1;
   display: flex;
-  justify-content: space-around;
+  justify-content: safe;
   margin-bottom: 20px;
 }
 
@@ -52,6 +52,6 @@
 
 /* scrollable top navigation bar*/
 .navigation_bar {
-  overflow: scroll;
-  /* white-space: nowrap; */
+  overflow-x: scroll;
+  white-space: nowrap;
 }
