@@ -30,9 +30,11 @@
   text-align: center;
   text-decoration: underline;
   background-color: #bcb8b1;
-  padding: 1em;
+  padding: 0.5em 2em 0.5em 2em;
   border-radius: 30px;
   transition: 0.3s;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .navigation_bar li:hover {
