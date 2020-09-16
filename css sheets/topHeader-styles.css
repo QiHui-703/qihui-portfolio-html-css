@@ -49,3 +49,9 @@
   text-decoration: none;
   color: #475b63;
 }
+
+/* scrollable top navigation bar*/
+.navigation_bar {
+  overflow: scroll;
+  /* white-space: nowrap; */
+}

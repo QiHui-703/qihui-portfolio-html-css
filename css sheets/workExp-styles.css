@@ -13,13 +13,13 @@ article {
 }
 
 .info_company {
-    display: flex;
+    /* display: flex; */
     /* margin-left: 40px; */
-    align-items: center;
+    /* align-items: center; */
 }
 
 .work-title-block-right {
-    display: inline-block;
+    /* display: inline-block; */
     margin-left: 15px;
     
 }

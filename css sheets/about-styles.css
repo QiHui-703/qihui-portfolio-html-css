@@ -1,19 +1,20 @@
 /*about section*/
 .about-top-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 .profile_picture {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 25px;
   /* box-shadow: 7px 7px 10px rgb(136, 136, 136); */
   transition: 0.2s;
-  position: relative;
+  /* position: relative; */
 }
 
 .profile_picture:hover {
@@ -23,12 +24,14 @@
 }
 
 .info {
-  display: inline-block;
-  margin-left: 30px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  margin-left: 15px;
+  font-size: 1rem;
 }
 
 .info li {
-  margin-bottom: 20px;
+  margin-bottom: 1px;
 }
 
 .brief_desc {
