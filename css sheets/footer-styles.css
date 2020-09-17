@@ -1,0 +1,84 @@
+.footer-icon-resize {
+    /* width: 40px; */
+    height: 20px;
+    /* padding: 30px; */
+}
+
+.footer {
+    background-color: rgba(188, 184, 177, 0.9);
+    padding: 10px 0px;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* .button-div {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+  } */
+  
+  .back-to-top-button {
+    display: flex;
+    background-color: #BA8CAD;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-img {
+    width: 20px;
+    height: 20px;
+  }
+
+
+/* --------------- */
+  /* push animation */
+  /* --------------- */
+
+  @-webkit-keyframes push-on-hover {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @keyframes push-on-hover {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  .push-on-hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .push-on-hover:hover, .push-on-hover:focus, .push-on-hover:active {
+    -webkit-animation-name: push-on-hover;
+    animation-name: push-on-hover;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 2;
+    animation-iteration-count: 2;
+  }
