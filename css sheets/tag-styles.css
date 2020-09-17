@@ -1,12 +1,19 @@
 /* sticky title tag */
 .tag_div {
-  width: 100%;
-  box-sizing: border-box;
+  /* width: 100%; */
+  /* box-sizing: border-box; */
   margin: 24px auto;
   position: sticky;
-  top: 60px;
+  top: 0px;
   z-index: 1;
 }
+
+/* .about-wrapper {
+  position: sticky;
+  top: 500px;
+  z-index: 1;
+} */
+
 
 .tag {
   background-color: #5c4435;
@@ -22,5 +29,4 @@
 .tag {
   font-size: 1.6rem;
   letter-spacing: 2px;
-  
 }

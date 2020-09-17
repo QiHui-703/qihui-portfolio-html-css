@@ -163,3 +163,9 @@ h2 {
   width: 30px;
   height: 30px;
 }
+
+.nav-after-click::before {
+  height: 40px;
+  content: "";
+  display:block;
+}
