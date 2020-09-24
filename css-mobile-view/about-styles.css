@@ -7,7 +7,7 @@
 .about-top-section {
   display: grid;
   grid-template-columns: 35% 65%;
-  grid-template-rows: repeat(2, minmax(10%, 25%));
+  grid-template-rows: repeat(2, minmax(10%, 50%));
   box-sizing: border-box;
 }
 
