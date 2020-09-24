@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Ng Qi Hui</title>
 
-    <link rel="stylesheet" href="./css sheets/styles.css" />
-    <link rel="stylesheet" href="./css sheets/about-styles.css" />
-    <link rel="stylesheet" href="./css sheets/topHeader-styles.css" />
-    <link rel="stylesheet" href="./css sheets/tag-styles.css" />
-    <link rel="stylesheet" href="./css sheets/workExp-styles.css" />
-    <link rel="stylesheet" href="./css sheets/education-styles.css" />
-    <link rel="stylesheet" href="./css sheets/project-styles.css" />
-    <link rel="stylesheet" href="./css sheets/footer-styles.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Ng Qi Hui</title>
 
-    <!-- font family packages -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Signika&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+  <link rel="stylesheet" href="./css-mobile-view/styles.css" />
+  <link rel="stylesheet" href="./css-mobile-view/about-styles.css" />
+  <link rel="stylesheet" href="./css-mobile-view/topHeader-styles.css" />
+  <link rel="stylesheet" href="./css-mobile-view/tag-styles.css" />
+  <link rel="stylesheet" href="./css-mobile-view/workExp-styles.css" />
+  <link rel="stylesheet" href="./css-mobile-view/education-styles.css" />
+  <link rel="stylesheet" href="./css-mobile-view/project-styles.css" />
+  <link rel="stylesheet" href="./css-mobile-view/footer-styles.css"/>
+
+  <link rel="stylesheet" href="./css-desk-view/styles-750px-1199px.css">
+  <link rel="stylesheet" href="./css-desk-view/styles-1200px.css">
+
+  <!-- font family packages -->
+  <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
     <div class="topheader_qihui" id="top-body">
       <h1>ng qi hui</h1>
     </div>
@@ -36,13 +32,49 @@
     <nav class="navigation_bar_nav">
       <ul class="navigation_bar">
         <!-- link to tag -->
-        <a href="#about-tag"><li>About</li></a>
-        <a href="#workExperience-tag"><li>Working Experience</li></a>
-        <a href="#education-tag"><li>Education</li></a>
-        <a href="#project-tag"><li>Project</li></a>
+        <a href="#about-tag">
+          <li>About</li>
+        </a>
+        <a href="#workExperience-tag">
+          <li>Working Experience</li>
+        </a>
+        <a href="#education-tag">
+          <li>Education</li>
+        </a>
+        <a href="#project-tag">
+          <li>Project</li>
+        </a>
       </ul>
     </nav>
 
+    <footer class="footer">
+      <div class="test">
+        <a target="_blank" href="mailto: qihui1995@gmail.com"><img class="footer-icon-resize push-on-hover"
+            src="./images/email.png" alt="Clickable email icon to send message"></a>
+
+        <a target="_blank" href="tel: +60124363197"><img class="footer-icon-resize push-on-hover"
+            src="./images/phone-call.png" alt="Clickable phone icon to ring owner"></a>
+
+        <a target="_blank" href="https://github.com/QiHui-703?tab=repositories"><img
+            class="footer-icon-resize push-on-hover" src="./images/github.png"
+            alt="Clickable github icon to open repositories"></a>
+
+        <a target="_blank" href="https://www.linkedin.com/in/qihuing/"><img class="footer-icon-resize push-on-hover"
+            src="./images/linkedin.png" alt="Clickable linkedin icon to view profile"></a>
+
+        <!-- <div class="button-div"> -->
+        <div class="back-to-top-button">
+          <a href="#top-body"><img class="button-img push-on-hover" src="./images/arrow-up.png"
+              alt="back-to-top-button" /></a>
+        </div>
+        <!-- </div> -->
+
+      </div>
+
+
+    </footer>
+
+  <div id="right-side-section">
     <div class="about nav-after-click" id="about-tag">
       <div class="about-wrapper">
         <div class="tag_div">
@@ -51,11 +83,7 @@
 
         <div class="about-top-section">
           <div class="profile-picture-div">
-            <img
-              class="profile_picture"
-              src="./images/qihui.jpg"
-              alt="Portfolio photo"
-            />
+            <img class="profile_picture" src="./images/qihui.jpg" alt="Portfolio photo" />
           </div>
           <div class="info-div">
             <ul class="info">
@@ -63,24 +91,22 @@
               <li>+60124363197</li>
               <li>qihui1995@gmail.com</li>
               <li>
-                <a
-                  class="link-linkedin"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/qihuing/"
-                  >linkedin.com/in/qihuing</a
-                >
+                <a class="link-linkedin" target="_blank"
+                  href="https://www.linkedin.com/in/qihuing/">linkedin.com/in/qihuing</a>
               </li>
             </ul>
           </div>
+          <div class="brief_desc">
+            <p> 2 years of experience in microcircuit manufacturing, focused on
+            automated epoxy dispensing process. A motivated junior executive with
+            an enthusiastic personality towards my work and life. Always seeking
+            opportunities to enhance my career and development. Eager to learn and
+            apply myself to the daily challenges.
+            </p>
+          </div>
         </div>
 
-        <p class="brief_desc">
-          2 years of experience in microcircuit manufacturing, focused on
-          automated epoxy dispensing process. A motivated junior executive with
-          an enthusiastic personality towards my work and life. Always seeking
-          opportunities to enhance my career and development. Eager to learn and
-          apply myself to the daily challenges.
-        </p>
+        
       </div>
     </div>
 
@@ -91,11 +117,7 @@
 
       <article>
         <div class="info_company">
-          <img
-            class="picture_company"
-            src="./images/keysight.png"
-            alt="Keysight company logo"
-          />
+          <img class="picture_company" src="./images/keysight.png" alt="Keysight company logo" />
           <div class="work-title-block-right">
             <p class="company_name">Keysight Technologies</p>
             <p>Process & Equipment Engineer</p>
@@ -204,14 +226,10 @@
           </ul>
         </div>
       </article>
-    
+
       <article>
         <div class="info_company">
-          <img
-            class="picture_company"
-            src="./images/plexus.png"
-            alt="Plexus company logo"
-          />
+          <img class="picture_company" src="./images/plexus.png" alt="Plexus company logo" />
           <div class="work-title-block-right">
             <p class="company_name">Plexus Manufacturing Sdn Bhd (Riverside)</p>
             <p>Quality Assurance Trainee</p>
@@ -254,11 +272,7 @@
 
       <article>
         <div class="education_div">
-          <img
-            class="education_logo"
-            src="./images/curtin.png"
-            alt="Curtin University logo"
-          />
+          <img class="education_logo" src="./images/curtin.png" alt="Curtin University logo" />
           <div class="education-title-block-right">
             <p class="education_name">Curtin University Malaysia</p>
             <p class="education_name">
@@ -275,11 +289,7 @@
         </ul>
         <p class="bold_title">Publication</p>
         <div class="education_div">
-          <img
-            class="education_logo"
-            src="./images/elsevier.png"
-            alt="Elsevier logo"
-          />
+          <img class="education_logo" src="./images/elsevier.png" alt="Elsevier logo" />
 
           <div class="education-title-block-right">
             <p class="education_name">Published by Science Direct</p>
@@ -291,16 +301,8 @@
           the distributed activation energy model (DAEM)
         </p>
         <div class="publication-div">
-          <a
-            class="publication"
-            target="_blank"
-            href="https://doi.org/10.1016/j.applthermaleng.2018.04.069"
-          >
-            <img
-              src="./images/article.png"
-              alt="article-icon"
-              style="width: 30px"
-            />
+          <a class="publication" target="_blank" href="https://doi.org/10.1016/j.applthermaleng.2018.04.069">
+            <img src="./images/article.png" alt="article-icon" style="width: 30px" />
             Full article
           </a>
         </div>
@@ -308,11 +310,7 @@
 
       <article>
         <div class="education_div">
-          <img
-            class="education_logo"
-            src="./images/curtin.png"
-            alt="Curtin University logo"
-          />
+          <img class="education_logo" src="./images/curtin.png" alt="Curtin University logo" />
           <div class="education-title-block-right">
             <p class="education_name">Curtin University Malaysia</p>
             <p class="education_name">Foundation in Science and Engineering</p>
@@ -335,51 +333,27 @@
 
       <article>
         <div class="project_div">
-          
+
           <div class="project-title-div">
             <p class="bold_title">Project title: Portfolio</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore placeat rem non, perferendis, velit iure eius aliquam atque incidunt nostrum repudiandae eum quam? Quae, cum quibusdam suscipit beatae reprehenderit atque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, itaque alias. Impedit quidem repudiandae in asperiores amet animi sunt labore delectus perspiciatis eveniet adipisci consectetur minima iste, eos ea laborum.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore placeat rem non, perferendis, velit iure
+              eius aliquam atque incidunt nostrum repudiandae eum quam? Quae, cum quibusdam suscipit beatae
+              reprehenderit
+              atque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, itaque alias. Impedit quidem
+              repudiandae in asperiores amet animi sunt labore delectus perspiciatis eveniet adipisci consectetur minima
+              iste, eos ea laborum.</p>
             <p class="bold_title">Skills</p>
             <p>HTML, CSS</p>
             <!-- <p class="bold_title">Source</p> -->
           </div>
 
           <a target="_blank" href="https://github.com/QiHui-703/qihui-portfolio-html-css">
-            <img
-            class="git-icon-display push-on-hover"
-            src="./images/github.png"
-            alt="Clickable github icon"
-          />
+            <img class="git-icon-display push-on-hover" src="./images/github.png" alt="Clickable github icon" />
           </a>
-          
+
       </article>
     </div>
+  </div>
+</body>
 
-    
-    <footer class="footer">
-      <div class="test">
-        <a target="_blank" href="mailto: qihui1995@gmail.com"><img class="footer-icon-resize push-on-hover" src="./images/email.png" alt="Clickable email icon to send message"></a>
-
-      <a target="_blank" href="tel: +60124363197"><img class="footer-icon-resize push-on-hover" src="./images/phone-call.png" alt="Clickable phone icon to ring owner"></a>
-
-      <a target="_blank" href="https://github.com/QiHui-703?tab=repositories"><img class="footer-icon-resize push-on-hover" src="./images/github.png" alt="Clickable github icon to open repositories"></a>
-
-      <a target="_blank" href="https://www.linkedin.com/in/qihuing/"><img class="footer-icon-resize push-on-hover" src="./images/linkedin.png" alt="Clickable linkedin icon to view profile"></a>
-
-      <!-- <div class="button-div"> -->
-        <div class="back-to-top-button">
-          <a href="#top-body"
-            ><img
-              class="button-img push-on-hover"
-              src="./images/arrow-up.png"
-              alt="back-to-top-button"
-          /></a>
-        </div>
-      <!-- </div> -->
-
-      </div>
-      
-      
-    </footer>
-  </body>
 </html>

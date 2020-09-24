@@ -1,3 +1,4 @@
+
 /*top header section*/
 .topheader_qihui {
   font-family: "Sacramento", cursive;
@@ -15,7 +16,7 @@
   margin: 0%;
   background-color: #bcb8b1;
   display: flex;
-  /* justify-content: safe; */
+  justify-content: safe;
   margin-bottom: 20px;
 }
 
@@ -67,7 +68,7 @@ body::-webkit-scrollbar-thumb:hover {
 .navigation_bar_nav {
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 10;
 }
 
 .navigation_bar li {
